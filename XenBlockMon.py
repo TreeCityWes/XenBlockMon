@@ -4,6 +4,7 @@ import time
 import sys
 from datetime import datetime
 
+# THERE IS NO NEED TO EDIT THE SCRIPT. RUN THE SCRIPT AS IS! 
 
 # Function to display banner
 def display_banner():
