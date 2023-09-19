@@ -52,8 +52,8 @@ def send_custom_request(endpoint, params=None):
 display_banner()
 
 # Get account address from user
-print(f"ENS is case-sensitive.")
-account = input("Please enter your XenBlocks account address: ")
+print(f"Enter ENS or wallet address.")
+account = input("Please enter your XenBlocks account address: ").lower()
 
 while True:
     # Initialize variables
